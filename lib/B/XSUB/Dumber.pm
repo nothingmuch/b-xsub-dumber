@@ -111,7 +111,11 @@ B::XSUB::Dumber - L<B::OPCheck> demo for microoptimizing XSUB invocation.
 Certain XSUBs don't need lots of fluff from pp_entersub to be invoked since
 they don't do anything fancy. For XSUBs fitting this description this module
 lexically replaces the implementation of the entersub ops calling them with a
-much simpler
+much simpler version that doesn't do anything except invoke the XSUB function
+pointer from the CV.
+
+This is meant mostly as a demo of the sort of thing B::OPCheck lets you do, so
+please don't take it too seriously or rely on it in any way.
 
 =head1 VERSION CONTROL
 
