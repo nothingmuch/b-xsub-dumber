@@ -12,6 +12,7 @@ WriteMakefile(
 	PL_FILES     => { },
 	PREREQ_PM    => {
 		'Test::use::ok' => 0,
+		'Test::Benchmark' => 0,
 	},
 );
 
