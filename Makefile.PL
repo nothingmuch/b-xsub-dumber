@@ -13,6 +13,7 @@ WriteMakefile(
 	PREREQ_PM    => {
 		'Test::use::ok' => 0,
 		'Test::Benchmark' => 0,
+		'B::OPCheck' => 0.27,
 	},
 );
 
