@@ -14,6 +14,7 @@ WriteMakefile(
 		'Test::use::ok' => 0,
 		'Test::Benchmark' => 0,
 		'B::OPCheck' => 0.27,
+		'B::Generate' => 0,
 	},
 );
 
